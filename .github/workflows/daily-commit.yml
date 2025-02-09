@@ -22,4 +22,5 @@ jobs:
           git config --global user.email "your_student_email@example.com"
           git add daily-commit.log
           git commit -m "Daily commit $(date)"
-          git push
+          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/YOUR_USERNAME/YOUR_REPO.git
+
