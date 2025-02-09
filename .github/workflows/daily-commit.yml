@@ -19,8 +19,8 @@ jobs:
       - name: Commit and push changes
         run: |
           git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "your_student_email@example.com"
+          git config --global user.email "22f3000522@ds.study.iitm.ac.in"
           git add daily-commit.log
           git commit -m "Daily commit $(date)"
-          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/YOUR_USERNAME/YOUR_REPO.git
+          git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/22f3002334/daily-commit.git
 
